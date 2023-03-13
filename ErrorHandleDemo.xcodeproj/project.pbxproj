@@ -14,6 +14,7 @@
 		F230270329BF69140041719D /* ErrorHandleDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F230270229BF69140041719D /* ErrorHandleDemoTests.swift */; };
 		F230270D29BF69140041719D /* ErrorHandleDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F230270C29BF69140041719D /* ErrorHandleDemoUITests.swift */; };
 		F230270F29BF69140041719D /* ErrorHandleDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F230270E29BF69140041719D /* ErrorHandleDemoUITestsLaunchTests.swift */; };
+		F230271C29BF69450041719D /* FileTransferError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F230271B29BF69450041719D /* FileTransferError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		F230270829BF69140041719D /* ErrorHandleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErrorHandleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F230270C29BF69140041719D /* ErrorHandleDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandleDemoUITests.swift; sourceTree = "<group>"; };
 		F230270E29BF69140041719D /* ErrorHandleDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandleDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F230271B29BF69450041719D /* FileTransferError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileTransferError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				F23026F429BF69140041719D /* Assets.xcassets */,
 				F23026F629BF69140041719D /* ErrorHandleDemo.entitlements */,
 				F23026F729BF69140041719D /* Preview Content */,
+				F230271B29BF69450041719D /* FileTransferError.swift */,
 			);
 			path = ErrorHandleDemo;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				F23026F329BF69130041719D /* ContentView.swift in Sources */,
 				F23026F129BF69130041719D /* ErrorHandleDemoApp.swift in Sources */,
+				F230271C29BF69450041719D /* FileTransferError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
